@@ -32,6 +32,8 @@
 * No Overhead ~ TCP
 * Integrates well in browser.
 * Cover all communication cases(request,response,serverStreaming,clientStreaming).
+* Pin-pong connection(client sends to server 'pin' and server response 'pong'). Thus, our client and server always 
+  know that there is someone alive on the other side, or he is no longer responding.
 
 
 
